@@ -107,5 +107,5 @@ else:
                 print("OK please Wait...")
             else:
                 print("Error: ", req.status_code, req.text)
-            print("Thans ^_~ ")
+        print("Thanks ^_~ ")
     MyWifi()
