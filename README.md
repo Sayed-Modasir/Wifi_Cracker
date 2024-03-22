@@ -43,7 +43,7 @@ Show All User Profile:
 
 #### Attention! :
 
-> This version can be run on Windows becuase the extention file is EXE
+> This version can be run on Windows because the export extension file is EXE.
 
 ### Installation 
 
@@ -59,6 +59,6 @@ $ python Wifi_Cracker.py
 
 #### Attention!:
 
-> Note that to use this tool on your Telegram Bot , You also ChatID & BotToken . Because it will send information to the your Bot .
+> Note that to use this tool on your Telegram Bot , You also need ChatID & BotToken Because it will send information to the your  Telegram Bot. 
 
 </p>
