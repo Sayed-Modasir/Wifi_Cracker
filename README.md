@@ -6,13 +6,7 @@
 
 <h4 align="center">A Tool With Attractive Capabilities. </h4>
 
-<p align="center">
 
-  <a href="http://python.org">
-    <img src="https://img.shields.io/badge/python-v3-blue">
-  </a>
-
-</p>
 
 ![demo](.imgs/Screen.jpg)
 
