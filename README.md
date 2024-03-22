@@ -12,10 +12,32 @@
 
 ### Features:
 
-- Show Wifi Profile
-- Key
-- 
-- 
+Show All User Profile:
+
+- Profile Information:
+    - Version
+    - Type
+    - Name
+    - ...
+
+- Connectivity Settings:
+    - SSID Name
+    - Network Type
+    - ...
+
+- Security Settings
+    - Authentication
+    - Chipher
+    - Security Key
+    - Key Content
+    - ...
+
+- Cost Settings
+    - Cost
+    - Congested
+    - Roaming
+    - ...
+
 
 <br>
 
