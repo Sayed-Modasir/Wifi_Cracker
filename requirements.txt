@@ -1,3 +1,4 @@
+colorama
 pyinstaller
 subprocess
 requests
