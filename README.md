@@ -48,7 +48,7 @@ Show All User Profile:
 ### Installation 
 
 ```bash
-$ git clone https://github.com/Sayed_Modasir_Hashimi/Wifi_Cracker
+$ git clone https://github.com/Sayed-Modasir/Wifi_Cracker.git
 $ cd Wifi_Cracker
 $ python -m pip install -r requirements.txt
 $ python Wifi_Cracker.py
